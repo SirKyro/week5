@@ -1,0 +1,6 @@
+;; -*- lisp -*-
+;; Run this with UMLANG_VM=0, the RecursiveInterpreter, and you get StackOverflowError.
+;; Run it with UMLANG_VM=1, the explicit-control-state interpreter, and you get a non-halting program.
+
+{define omega {fn {} {omega}}}
+{omega}

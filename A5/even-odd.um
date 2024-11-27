@@ -1,0 +1,8 @@
+;; -*- lisp -*-
+
+{define zero? {fn {x} {= x 0}}}
+{define even? {fn {x} {if {zero? x} #t {odd? {- x 1}}}}}
+{define odd? {fn {x} {if {zero? x} #f {even? {- x 1}}}}}
+
+;; {display {odd? 11}}
+;; {newline}

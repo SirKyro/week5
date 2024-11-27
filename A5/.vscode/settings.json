@@ -1,0 +1,5 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "makefile.configureOnOpen": false,
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
